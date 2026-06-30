@@ -315,3 +315,41 @@ footer { border-top: 1px solid rgba(196,147,42,0.15); padding: 2rem 4rem; displa
     padding: 0.25rem 0.65rem;
     border-radius: 1px;
 }
+@media (max-width: 768px) {
+  .section-inner {
+    padding: 4rem 1.25rem;
+  }
+
+  .about-grid,
+  .contact-grid,
+  .experience-header,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 7rem 1.25rem 4rem;
+  }
+
+  .hero-title,
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
+  .skills-panel {
+    padding: 1.5rem;
+  }
+
+  .project-card.featured {
+    grid-column: span 1;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
